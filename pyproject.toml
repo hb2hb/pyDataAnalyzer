@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pydataanalyzer"
+version = "0.1.0"
+description = ""
+authors = ["hb2hb <hb2hb@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pyside6 = "^6.5.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
