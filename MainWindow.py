@@ -3,7 +3,7 @@ from PySide6.QtWidgets import (QApplication, QLabel, QPushButton, QDialog,
 from PySide6.QtWidgets import QMainWindow
 from PySide6.QtGui import (QAction, QKeySequence, QScreen )
 from MainTabWidget import MainTabWidget
-
+###
 
 class MainWindow(QMainWindow):
     def __init__(self):

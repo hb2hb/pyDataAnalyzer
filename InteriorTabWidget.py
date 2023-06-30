@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import (QWidget, QSplitter, QFrame, QGridLayout, QPushButton, QVBoxLayout, QHBoxLayout)
 from PySide6.QtCore import (Qt, Slot)  # PySide6.QtCore.Qt.Orientation for QSplitter
-
+###
 
 class InteriorTabWidget(QWidget):
     def __init__(self, parent=None):

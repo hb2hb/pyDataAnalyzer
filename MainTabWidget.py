@@ -1,5 +1,6 @@
 from PySide6.QtWidgets import (QWidget, QTabWidget, QSplitter, QFrame, QGridLayout, QHBoxLayout)
 from InteriorTabWidget import InteriorTabWidget
+###
 
 class MainTabWidget(QTabWidget):
     def __init__(self, parent = None):
