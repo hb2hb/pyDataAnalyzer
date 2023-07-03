@@ -1,7 +1,7 @@
 import sys
 ##import PySide6
 from PySide6.QtWidgets import (QApplication)
-from MainWindow import MainWindow
+from pyDA.MainWindow import MainWindow
 ###
 
 if __name__ == '__main__':

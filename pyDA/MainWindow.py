@@ -1,8 +1,7 @@
-from PySide6.QtWidgets import (QApplication, QLabel, QPushButton, QDialog,
-                               QVBoxLayout, QToolBar, QStatusBar )
+from PySide6.QtWidgets import (QApplication, QToolBar, QStatusBar)
 from PySide6.QtWidgets import QMainWindow
-from PySide6.QtGui import (QAction, QKeySequence, QScreen )
-from MainTabWidget import MainTabWidget
+from PySide6.QtGui import (QScreen)
+from pyDA.MainTabWidget import MainTabWidget
 ###
 
 class MainWindow(QMainWindow):

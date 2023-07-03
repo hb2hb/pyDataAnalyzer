@@ -1,5 +1,5 @@
-from PySide6.QtWidgets import (QWidget, QTabWidget, QSplitter, QFrame, QGridLayout, QHBoxLayout)
-from InteriorTabWidget import InteriorTabWidget
+from PySide6.QtWidgets import (QTabWidget)
+from pyDA.InteriorTabWidget import InteriorTabWidget
 ###
 
 class MainTabWidget(QTabWidget):
